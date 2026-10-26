@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/hero.png" alt="Clavis — the JWT multitool for bug bounty" width="100%">
+
 # 🗝️ Clavis
 
 **The JWT multitool for bug bounty — decode, audit, crack, forge and break JSON Web Tokens from one static binary.**

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1222"/><stop offset="1" stop-color="#05080b"/>
+    </linearGradient>
+    <linearGradient id="key" x1="120" y1="120" x2="320" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19E6E6"/><stop offset="1" stop-color="#4DFF9E"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="430" y1="150" x2="900" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#eafffb"/><stop offset="1" stop-color="#9ff6e0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1184" height="384" rx="28" fill="none" stroke="#19E6E6" stroke-opacity="0.16" stroke-width="2"/>
+
+  <!-- faint JWT dot header strip -->
+  <g fill="#19E6E6" fill-opacity="0.10">
+    <circle cx="70" cy="56" r="5"/><circle cx="92" cy="56" r="5"/><circle cx="114" cy="56" r="5"/>
+    <circle cx="1086" cy="344" r="5"/><circle cx="1108" cy="344" r="5"/><circle cx="1130" cy="344" r="5"/>
+  </g>
+
+  <!-- key emblem on the left, rotated -->
+  <g transform="translate(70 90) rotate(45 130 130)">
+    <circle cx="130" cy="78" r="56" fill="none" stroke="url(#key)" stroke-width="28"/>
+    <circle cx="130" cy="78" r="15" fill="#05080b"/>
+    <rect x="116" y="126" width="28" height="150" rx="12" fill="url(#key)"/>
+    <rect x="144" y="214" width="44" height="24" rx="8" fill="url(#key)"/>
+    <rect x="144" y="250" width="30" height="24" rx="8" fill="url(#key)"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="430" y="196" font-family="'Trebuchet MS','DejaVu Sans',Verdana,sans-serif" font-size="110" font-weight="800" fill="url(#txt)" letter-spacing="2">Clavis</text>
+  <text x="434" y="250" font-family="'DejaVu Sans',Verdana,sans-serif" font-size="30" font-weight="600" fill="#19E6E6">The JWT multitool for bug bounty</text>
+  <text x="434" y="298" font-family="'DejaVu Sans Mono','Courier New',monospace" font-size="22" fill="#6f8a86">decode · audit · crack · forge · confuse · jwk / jku / kid</text>
+  <text x="434" y="340" font-family="'DejaVu Sans',Verdana,sans-serif" font-size="22" fill="#4DFF9E">⚡ @BugCod3</text>
+</svg>
