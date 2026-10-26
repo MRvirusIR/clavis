@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-const version = "1.0.0"
+var version = "1.0.0"
 
 func main() { os.Exit(run(os.Args[1:])) }
 
