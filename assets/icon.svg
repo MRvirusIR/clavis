@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0b1222"/><stop offset="1" stop-color="#05080b"/>
+    </linearGradient>
+    <linearGradient id="key" x1="150" y1="150" x2="372" y2="372" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#19E6E6"/><stop offset="1" stop-color="#4DFF9E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="6" y="6" width="500" height="500" rx="106" fill="none" stroke="#19E6E6" stroke-opacity="0.22" stroke-width="3"/>
+
+  <!-- token dots motif -->
+  <g fill="#19E6E6" fill-opacity="0.16">
+    <circle cx="92" cy="80" r="5"/><circle cx="116" cy="80" r="5"/><circle cx="140" cy="80" r="5"/>
+    <circle cx="372" cy="432" r="5"/><circle cx="396" cy="432" r="5"/><circle cx="420" cy="432" r="5"/>
+  </g>
+
+  <!-- key, rotated 45deg -->
+  <g transform="rotate(45 256 256)">
+    <!-- bow (ring) -->
+    <circle cx="256" cy="156" r="68" fill="none" stroke="url(#key)" stroke-width="34"/>
+    <circle cx="256" cy="156" r="18" fill="#05080b"/>
+    <!-- shaft -->
+    <rect x="239" y="214" width="34" height="182" rx="14" fill="url(#key)"/>
+    <!-- teeth -->
+    <rect x="273" y="318" width="52" height="28" rx="9" fill="url(#key)"/>
+    <rect x="273" y="360" width="36" height="28" rx="9" fill="url(#key)"/>
+  </g>
+</svg>

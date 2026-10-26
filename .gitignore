@@ -1,0 +1,6 @@
+/clavis
+/clavis.exe
+/dist/
+*.jwt
+*.pem
+*.test
