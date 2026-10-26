@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.png" alt="Clavis — the JWT multitool for bug bounty" width="100%">
+<img src="assets/hero.svg" alt="Clavis — the JWT multitool for bug bounty" width="100%">
 
 # 🗝️ Clavis
 
